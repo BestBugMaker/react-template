@@ -3,7 +3,7 @@ import { Context, debounce } from "../../utils/common";
 import { Button } from "antd";
 import { useAppDispatch, useAppSelector } from "../../store/hooks";
 import { increment, incrementByAmount } from "../../store/features/counterSlice";
-import { fetchPetData, getPetData } from "../../store/features/petSlice";
+import { getPetData } from "../../store/features/petSlice";
 
 function Home() {
     // const [count, setCount] = useState(0);
